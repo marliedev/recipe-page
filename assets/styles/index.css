@@ -36,6 +36,7 @@
     --fs-400: 20px;
     --fs-500: 24px;
     --fs-600: 32px;
+    --fs-700: 40px;
 
     /* font-family */
     --ff-base: "Outfit", sans;
@@ -159,8 +160,8 @@ table {
 
 .recipe-page__headline {
     font-family: var(--ff-headings);
-    font-weight: 600;
-    font-size: var(--fs-600, 32px);
+    font-weight: 500;
+    font-size: var(--fs-700, 40px);
     color: var(--clr-stone-900);
     line-height: 120%;
 }
