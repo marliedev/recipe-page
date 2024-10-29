@@ -17,26 +17,26 @@
 
 <body>
   <main class="wrapper">
-    <div class="recipe-details">
-      <figure>
+    <article class="recipe-page">
+      <figure class="recipe-page__cover-image">
         <img loading="lazy" src="./assets/images/image-omelette.jpeg"
           alt="image of an omelette filled with vegetables" />
       </figure>
-      <article>
-        <h1 class="recipe-title"> Simple Omelette Recipe</h1>
+      <div class="recipe-page__section">
+        <h1 class="recipe-page__headline"> Simple Omelette Recipe</h1>
         <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
           to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
-        <div class="box box--rose">
-          <div class="box__heading">Preperation Time</div>
+        <div class="recipe-page__inline-box" data-color="rose">
+          <div class="inline-box__heading">Preperation Time</div>
           <ul>
             <li><strong>Total:</strong> Approximately 10 minutes</li>
             <li><strong>Preparation:</strong> 5 minutes</li>
             <li><strong>Cooking:</strong> 5 minutes</li>
           </ul>
         </div>
-      </article>
-      <article>
-        <h2 class="article-heading">Ingredients</h2>
+      </div>
+      <div class="recipe-page__section">
+        <h2 class="section-heading">Ingredients</h2>
         <ul>
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
@@ -44,10 +44,10 @@
           <li>1 tablespoon of butter or oil</li>
           <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
         </ul>
-      </article>
+      </div>
       <hr />
-      <article>
-        <h2 class="article-heading">Instructions</h2>
+      <div class="recipe-page__section">
+        <h2 class="section-heading">Instructions</h2>
         <ol>
           <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are
             well mixed.
@@ -63,10 +63,10 @@
             fillings. Let it cook for another minute, then slide it onto a plate.</li>
           <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
           </ul>
-      </article>
+      </div>
       <hr />
-      <article>
-        <h2 class="article-heading">Nutrition</h2>
+      <div class="recipe-page__section">
+        <h2 class="section-heading">Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
         <table>
           <tbody>
@@ -88,8 +88,8 @@
             </tr>
           </tbody>
         </table>
-      </article>
-    </div>
+      </div>
+    </article>
   </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
